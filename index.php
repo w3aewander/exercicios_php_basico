@@ -40,51 +40,62 @@
   <!-- exercicio 1 -->
   <div id="ex01" class="container box-shadow">
     <?php include "ex01.php"; ?>
+    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
   </div>
 
   <!-- exercicio 2 -->
   <div id="ex02"  class="container box-shadow">
     <?php include "ex02.php"; ?>
+    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
   </div>
 
   <!-- exercicio 3 -->
   <div id="ex03" class="container box-shadow">
     <?php include "ex03.php"; ?>
+    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
   </div>
 
   <!-- exercicio 4 -->
   <div id="ex04" class="container box-shadow">
     <?php include "ex04.php"; ?>
+    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
+    
   </div>
 
   <!-- exercicio 5 -->
   <div id="ex05" class="container box-shadow">
     <?php include "ex05.php"; ?>
+    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
   </div>
   
   <!-- exercicio 6 -->
   <div id="ex06" class="container box-shadow">
     <?php include "ex06.php"; ?>
+    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
   </div>
 
   <!-- exercicio 7 -->
   <div id="ex07" class="container box-shadow">
     <?php include "ex07.php"; ?>
+    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
   </div>
 
   <!-- exercicio 8 -->
   <div id="ex08" class="container box-shadow">
     <?php include "ex08.php"; ?>
+    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
   </div>
 
   <!-- exercicio 9 -->
   <div id="ex09" class="container box-shadow">
     <?php include "ex09.php"; ?>
+    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
   </div>
 
   <!-- exercicio 10 -->
   <div id="ex10" class="container box-shadow">
     <?php include "ex10.php"; ?>
+    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
   </div>
 </body>
 

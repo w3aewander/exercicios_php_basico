@@ -8,7 +8,7 @@
  //Crie uma função que receba um array de números e retorne a média aritméca deles. 
 
 
-echo "<h3>5 - Retornar a média aritimética de array de números. </h3>";
+echo "<h3>6 - Retornar a média aritimética de array de números. </h3>";
 echo "Nome da função chamada: retornaMediaAritimetica | Parâmetro: vetor contendo os números";
 
 $v = [10,10,10,10,5];
