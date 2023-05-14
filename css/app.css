@@ -13,6 +13,20 @@ body{
 
 }
 
+a {
+ padding: 5px;
+ width: 120px;
+  color: #140a48;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  border: outset 2px;
+  border-color: rgb(58, 13, 117);
+  background-color: rgba(223, 216, 244, 0.93);
+  text-decoration: none;   
+}
+a:link{
+
+}
 .header{
     margin: 0 auto;
     padding: 30px;
@@ -21,7 +35,6 @@ body{
 }
 .container{
     margin: 0 auto;
-    height: 80vh;
     width: 80%;
     padding: 30px;
     margin-top: 50px;
@@ -30,6 +43,15 @@ body{
 }
 .box-shadow{
     box-shadow: 2px 2px 4px rgba(61, 9, 232, 0.93);
+}
+.menu-header{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border: 0;
+    background-color: rgb(186, 187, 197);
+    padding: 10px;
+    color:rgba(61, 9, 232, 0.93);
 }
 .text-center{
     text-align: center;

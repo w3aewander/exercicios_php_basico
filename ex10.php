@@ -22,7 +22,7 @@ echo "<h4>Vetor enviado</h4>";
        
 echo "\$v = [ ";
 for($i=0;$i<=count($v) -1;$i++){
-   echo "<br>$v[$i]";
+   echo "$v[$i]";
    if($i != count($v) -1){
      echo ', ';
    }
