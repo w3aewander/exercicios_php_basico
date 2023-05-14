@@ -10,8 +10,8 @@
 //como parâmetro e retorne a mesma string 
 //com todas as letras maiúsculas. 
 
-echo "<h3>7 - Retornar a média aritimética de array de números. </h3>";
-echo "Nome da função chamada: retornaMediaAritimetica | Parâmetro: vetor contendo os números";
+echo "<h3>7 - Retornar o texto em letras maiúsculas. </h3>";
+echo "Nome da função chamada: converterTextoEmLetrasMaiusculas | Parâmetro: texto";
 
 $texto ="Eu amo programar em php";
        
