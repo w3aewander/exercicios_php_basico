@@ -1,4 +1,5 @@
 <h4>Manipulando arquivos de texto</h4>
+<hr>
 
 <div style="margin: 10px auto; padding: 20px;">
  

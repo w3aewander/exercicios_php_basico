@@ -34,4 +34,5 @@ const playVideo = (title, v) => {
     const video = document.getElementById('video');
     video.setAttribute('src',v);
     video.setAttribute('title',title);
+    scrollTo(0, 0);
 };

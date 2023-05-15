@@ -1,3 +1,6 @@
+<h4>Video aulas</h4>
+<hr>
+
 <div style="display: flex; width: 100%;">
     <div style="width: 200px;">
          <ul class="menu">

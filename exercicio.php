@@ -6,6 +6,7 @@
   
   <div class="header">
     <h1>Resolução de exercícios</h1>
+    <hr>
     <p>
       Wanderlei Silva do Carmo - Exercícios orientados <br>
       <h2 class="text-center">Resposta dos exercícios</h2>

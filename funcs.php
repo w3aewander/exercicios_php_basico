@@ -1,4 +1,5 @@
-<h4>Vetores</h4>
+<h4>Funções</h4>
+<hr>
 
 <div style="margin: 10px auto; padding: 20px;">
  

@@ -1,4 +1,3 @@
-
 <?php 
  date_default_timezone_set("America/Sao_Paulo");
  include __DIR__ . "/header.php"; 
@@ -16,6 +15,7 @@
     <a class="menu-link" href="#vetores"> Vetores/Array </a>
     <a class="menu-link" href="#funcs"> Funções</a>
     <a class="menu-link" href="#arquivos"> Arquivos</a>
+    <a class="menu-link" href="apostilas.php"> Apostilas</a>
     <a class="menu-link" href="#videos"> Video aulas</a>
     <a class="menu-link" href="exercicio.php"> Exercícios </a>
   </p>
@@ -51,12 +51,13 @@
     <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
 </div>
   <!-- video aulas -->
-  <div id="videoaulas" class="container box-shadow">
+  <div id="videos" class="container box-shadow">
     <?php require __DIR__ . "/videos.php" ; ?>
+    <br>
+    <div class="container box-shadow">
+      <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
+    </div>
   </div
   
-  <div class="container box-shadow">
-    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
-  </div>
   
 <?php include __DIR__ . "/footer.php"; ?>
