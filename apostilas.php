@@ -5,8 +5,8 @@
   <p>Prof. Wanderlei Silva do Carmo <wander.silva@gmail.com></p>
 </div>
 
-<div style="margin: 10 auto; text-align: center;">
-  <p style="display: inline-block; ">
+<div class="menu-header">
+  <p class="menu-header-item">
     <a class="menu-link" target="__top" href="./index.php"> Inicio </a>
     <a class="menu-link" target="docview" href="./docs/php - Fundamentos da linguagem PHP.pdf"> Fundamentos da Linguagem </a>
     <a class="menu-link" target="docview" href="./docs/php - constantes-e-variaveis-em-php.pdf"> Constantes e Variáveis </a>

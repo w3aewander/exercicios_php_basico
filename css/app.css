@@ -1,5 +1,5 @@
 :root {
-    --cor-fundo: rgb(25, 28, 31);
+    --cor-fundo: rgb(58, 61, 64);
     --cor-header: rgba(61, 37, 133, 0.93);
     --cor-fonte-header: rgb(235, 232, 240);
 }
@@ -31,6 +31,10 @@ a:link{
     background-color: var(--cor-header);
     color: var(--cor-fonte-header);
 }
+.menu-header-item{
+    display: inline-block; 
+    padding: 1px 0 0 10px;
+}
 .container{
     margin: 0 auto;
     width: 80%;
@@ -46,9 +50,9 @@ a:link{
     display: block;
     margin: 0 auto;
     width: 100%;
+    text-align: center;
     border: 0;
     background-color: rgb(186, 187, 197);
-    padding: 10px;
     color:rgba(61, 9, 232, 0.93);
 }
 .text-center{

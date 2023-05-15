@@ -9,7 +9,7 @@
 </div>
 
 <div class="menu-header">
-  <p style="display: inline-block">
+  <p class="menu-header-item">
     <a class="menu-link" href="#constante"> Constantes </a>
     <a class="menu-link" href="#variaveis"> Variáveis </a>
     <a class="menu-link" href="#vetores"> Vetores/Array </a>
