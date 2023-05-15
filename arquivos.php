@@ -4,7 +4,7 @@
  
     <!-- introdução -->
     <p>
-    Em PHP, existem diversas funções disponíveis para manipulação de arquivos de texto. Vou mostrar alguns exemplos básicos de como realizar operações como ler, escrever, pesquisar e excluir dados de arquivos de texto.
+        Em PHP, existem diversas funções disponíveis para manipulação de arquivos de texto. Vou mostrar alguns exemplos básicos de como realizar operações como ler, escrever, pesquisar e excluir dados de arquivos de texto.
     </p>
 
 
@@ -20,7 +20,7 @@
             </pre>
         </code>
     </p>
-    <h5>Ler dados em arquivo de texto</h5>
+    <h5>Ler dados em arquivo de texto com fopen()</h5>
     <p>
         <code><pre>
         //variável contendo o caminho do arquivo no sistema.
@@ -87,7 +87,7 @@
         file_put_contents($nomeArquivo, '');
         echo "Dados excluídos com sucesso!";
         </pre></code>
-    </p>/
+    </p>
     <p>Também pode-se abrir o arquivo percorrer linha a linha, enviar 
        apenas o conteúdo da linha que se quer manter para outro arquivo,
        e depois desse procedimento,  apagar o conteúdo do arquivo original e em seguindo gravar o conteudo do arquivo gerado temporariamente para o arquivo original e por último, apagar o arquivo auxliar.. (visto na prática)

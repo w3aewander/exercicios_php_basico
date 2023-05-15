@@ -16,6 +16,7 @@
     <a class="menu-link" href="#vetores"> Vetores/Array </a>
     <a class="menu-link" href="#funcs"> Funções</a>
     <a class="menu-link" href="#arquivos"> Arquivos</a>
+    <a class="menu-link" href="#videos"> Video aulas</a>
     <a class="menu-link" href="exercicio.php"> Exercícios </a>
   </p>
 </div>
@@ -48,6 +49,14 @@
   <div id="arquivos" class="container box-shadow">
     <?php require __DIR__ . "/arquivos.php" ; ?>
     <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
+</div>
+  <!-- video aulas -->
+  <div id="videoaulas" class="container box-shadow">
+    <?php require __DIR__ . "/videos.php" ; ?>
   </div
+  
+  <div class="container box-shadow">
+    <a href="javascript:scrollTo(0,0);">Voltar ao topo</a>
+  </div>
   
 <?php include __DIR__ . "/footer.php"; ?>

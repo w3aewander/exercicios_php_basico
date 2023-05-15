@@ -56,6 +56,31 @@ a:link{
 .text-center{
     text-align: center;
 }
+.menu{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.opt-menu{
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+}
+.opt-menu > a {
+    display: inline-block;
+    width: 100%;  
+}
+
+.btn {
+
+    border: 2px solid gray;
+    background-color: rgba(223, 216, 244, 0.93) ;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 4px outset rgb(197, 195, 203);
+}
 .footer {
     display: fixed;
     left: 0;
