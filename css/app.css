@@ -56,3 +56,14 @@ a:link{
 .text-center{
     text-align: center;
 }
+.footer {
+    display: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    height:50px;
+    background-color: var(--cor-header);
+    color: var(--cor-fonte-header);
+}
