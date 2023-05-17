@@ -1,7 +1,12 @@
-<h4>Variáveis</h4>
-<hr>
 
-<div style="margin: 10px auto; padding: 20px;">
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <h4>Variáveis</h4>
+        </div>
+    </div>
+    <div class="card-body">
+        <div >
 
     <p>
     Em PHP, as variáveis são usadas para armazenar e manipular dados. Elas podem conter diferentes tipos de valores, como números, strings, booleanos, arrays, entre outros. As variáveis são flexíveis e podem ser reatribuídas com diferentes valores ao longo do código.
@@ -10,28 +15,27 @@
     <p>
         Exemplo de uso de variáveis em PHP:
     </p>
-    <code>
-        <pre>
-        // Definindo uma variável numérica
-        $idade = 25;
+    <code >
+        
+        // Definindo uma variável numérica<br>
+        $idade = 25;<br>
 
-        // Definindo uma variável de string
-        $nome = "João";
+        // Definindo uma variável de string<br>
+        $nome = "João";<br>
 
-        // Definindo uma variável booleana
-        $temCarro = true;
+        // Definindo uma variável booleana<br>
+        $temCarro = true;<br>
 
-        // Definindo uma variável array
-        $cores = array("vermelho", "azul", "verde");
+        // Definindo uma variável array<br>
+        $cores = array("vermelho", "azul", "verde");<br>
 
-        // Usando as variáveis definidas
-        echo "A idade é: " . $idade;
-        echo "O nome é: " . $nome;
-        echo "Tem carro? " . ($temCarro ? "Sim" : "Não");
-        echo "A segunda cor é: " . $cores[1];
+        // Usando as variáveis definidas<br>
+        echo "A idade é: " . $idade;<br>
+        echo "O nome é: " . $nome;<br>
+        echo "Tem carro? " . ($temCarro ? "Sim" : "Não");<br>
+        echo "A segunda cor é: " . $cores[1];<br>
 
 
-        </pre>
     </code>
 
     <p>
@@ -39,3 +43,8 @@
     Lembre-se de que, em PHP, as variáveis começam com o caractere $ seguido pelo nome da variável. Além disso, o nome das variáveis é case-sensitive, o que significa que $nome e $Nome são consideradas variáveis diferentes.
     </p>
 </div>
+    </div>
+</div>
+
+
+

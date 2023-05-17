@@ -1,7 +1,11 @@
-<h4>Manipulando arquivos de texto</h4>
-<hr>
-
-<div style="margin: 10px auto; padding: 20px;">
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <h4>Manipulando arquivos de texto</h4>
+        </div>
+    </div>
+    <div class="card-body">
+        <div >
  
     <!-- introdução -->
     <p>
@@ -14,80 +18,80 @@
     <h5>Ler dados em arquivo de texto</h5>
     <p>
         <code>
-            <pre>
-            $nomeArquivo = 'dados.txt';
-            $conteudo = file_get_contents($nomeArquivo);
-            echo $conteudo;
-            </pre>
+            
+            $nomeArquivo = 'dados.txt';<br>
+            $conteudo = file_get_contents($nomeArquivo);<br>
+            echo $conteudo;<br>
+            
         </code>
     </p>
     <h5>Ler dados em arquivo de texto com fopen()</h5>
     <p>
-        <code><pre>
-        //variável contendo o caminho do arquivo no sistema.
-        $path = "caminho_do_arquivo";    
+        <code>
+        //variável contendo o caminho do arquivo no sistema.<br>
+        $path = "caminho_do_arquivo";  <br>
         
-        //abra o arquivo de texto no modo leitura (r)
-        $fp = fopen($path, 'r');
+        //abra o arquivo de texto no modo leitura (r)<br>
+        $fp = fopen($path, 'r');<br>
 
-        //percorra cada linha do arquivo
-        while ( ! feof($p)){
-            echo fgets($fp, 1020);
-        }
-        //fechar o arquivo
-        fclose($fp);
+        //percorra cada linha do arquivo <br>
+        while ( ! feof($p)){ <br>
+            echo fgets($fp, 1020); <br>
+        }<br>
+        //fechar o arquivo<br>
+        fclose($fp);<br>
 
-        </pre></code>
+    </code>
     </p>
 
     <h5>Escrever dados em arquivo de texto</h5>
     <p>
-        <code><pre>
-        //variável contendo o caminho do arquivo no sistema.
-        $path = "caminho_do_arquivo";    
+        <code>
+        //variável contendo o caminho do arquivo no sistema.<br>
+        $path = "caminho_do_arquivo";<br><br>    
         
-        //abra o arquivo de texto no modo escrita (r)
-        file_put_contents($path, "dados para serem gravados");
+        //abra o arquivo de texto no modo escrita (r)<br>
+        file_put_contents($path, "dados para serem gravados");<br>
 
-        </pre></code>
+        </code>
     </p>
     <p>
-        <code><pre>
-        //variável contendo o caminho do arquivo no sistema.
-        $path = "caminho_do_arquivo";    
+        <code>
+        //variável contendo o caminho do arquivo no sistema.<br>
+        $path = "caminho_do_arquivo";<br><br>
         
-        //abra o arquivo de texto no modo leitura (r)
-        $fp = fopen($path, 'w');
+        //abra o arquivo de texto no modo leitura (r)<br>
+        $fp = fopen($path, 'w');<br><br>
 
-        //grave o conteúdo desejado no arquivo
-        fwrite($fp, "conteudo ou a string desejada para gravar", 1024);
-        
-        //fechar o arquivo
-        fclose($fp);
+        //grave o conteúdo desejado no arquivo<br>
+        fwrite($fp, "conteudo ou a string desejada para gravar", 1024);<br>
+        <br>
+        //fechar o arquivo<br>
+        fclose($fp);<br>
 
-        </pre></code>
+        </code>
     </p>
 
     <h5>Pesquisar dados em um arquivo de texto</h5>
     <p>
-        <code><pre>
-        $nomeArquivo = 'dados.txt';
-        $conteudo = file_get_contents($nomeArquivo);
-        if (strpos($conteudo, 'exemplo') !== false) {
-            echo "A palavra 'exemplo' foi encontrada no arquivo.";
-        } else {
-            echo "A palavra 'exemplo' não foi encontrada no arquivo.";
-        }
-        </pre></code>
+        <code>
+        $nomeArquivo = 'dados.txt';<br>
+        $conteudo = file_get_contents($nomeArquivo);<br>
+        if (strpos($conteudo, 'exemplo') !== false) {<br>
+            echo "A palavra 'exemplo' foi encontrada no arquivo.";<br>
+        } else {<br>
+            echo "A palavra 'exemplo' não foi encontrada no arquivo.";<br>
+        }<br>
+        </code>
     </p>
 
     <h5>Excluir dados em arquivo de texto</h5>
     <p>
-        <code><pre>
-        $nomeArquivo = 'dados.txt';
-        file_put_contents($nomeArquivo, '');
-        echo "Dados excluídos com sucesso!";
-        </pre></code>
+        <code>
+        $nomeArquivo = 'dados.txt';<br>
+        file_put_contents($nomeArquivo, '');<br>
+        echo "Dados excluídos com sucesso!";<br>
+        </code>
     </p>
     <p>Também pode-se abrir o arquivo percorrer linha a linha, enviar 
        apenas o conteúdo da linha que se quer manter para outro arquivo,
@@ -98,3 +102,8 @@
     
     </p>
 </div>
+    </div>
+</div>
+
+
+

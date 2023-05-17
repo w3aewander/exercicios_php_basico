@@ -1,7 +1,11 @@
-<h4>Funções</h4>
-<hr>
-
-<div style="margin: 10px auto; padding: 20px;">
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <h4>Funções</h4>
+        </div>
+    </div>
+    <div class="card-body">
+        <div style="margin: 10px auto; padding: 20px;">
  
     <!-- introdução -->
     <p>
@@ -14,29 +18,29 @@
         Exemplo de uso de funções em PHP:
     </p>
     <code>
-    <pre>
-    // Definindo uma função simples sem parâmetros
-    function exibirMensagem()
-    {
-        echo "Olá, mundo!";
-    }
+ 
+    // Definindo uma função simples sem parâmetros<br>
+    function exibirMensagem()<br>
+    {<br>
+        echo "Olá, mundo!";<br>
+    }<br>
+<br>
+    // Definindo uma função com parâmetros<br>
+    function somar($a, $b)<br>
+    {<br>
+        $resultado = $a + $b;<br>
+        return $resultado;<br>
+    }<br>
+<br>
+    // Chamando as funções definidas<br>
+    exibirMensagem();<br>
 
-    // Definindo uma função com parâmetros
-    function somar($a, $b)
-    {
-        $resultado = $a + $b;
-        return $resultado;
-    }
+    $valor1 = 5;<br>
+    $valor2 = 3;<br>
+    $soma = somar($valor1, $valor2);<br>
+    echo "A soma de $valor1 e $valor2 é: $soma";<br>
 
-    // Chamando as funções definidas
-    exibirMensagem();
-
-    $valor1 = 5;
-    $valor2 = 3;
-    $soma = somar($valor1, $valor2);
-    echo "A soma de $valor1 e $valor2 é: $soma";
-
-    </pre>
+   
     </code>
 
     <!-- resumo do conteúdo -->
@@ -48,3 +52,7 @@
 Lembre-se de que as funções podem ter parâmetros opcionais, retornar valores ou não retornar nada (nesse caso, elas executam uma ação). Também é possível criar funções com qualquer quantidade de parâmetros.
     </p>
 </div>
+    </div>
+</div>
+
+

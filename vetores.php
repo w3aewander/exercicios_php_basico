@@ -1,7 +1,12 @@
-<h4>Vetores</h4>
-<hr />
 
-<div style="margin: 10px auto; padding: 20px;">
+<div class="card">
+    <div class="card-header">
+       <div class="card-title">
+           <h4>Vetores</h4>
+       </div>
+    </div>
+    <div class="card-body">
+        <div >
 
     <p>
       Em PHP, um vetor (ou array) é uma estrutura de dados que permite armazenar múltiplos valores em uma única variável. Os vetores podem conter elementos de diferentes tipos, como números, strings, booleanos, outros vetores e assim por diante. Aqui estão alguns exemplos de definição e uso de vetores em PHP: 
@@ -11,34 +16,33 @@
         Exemplo de uso de vetores em PHP:
     </p>
     <code>
-    <pre>
-    // Definindo um vetor numérico
-    $idades = [25, 30, 35, 40];
+    
+    // Definindo um vetor numérico <br>
+    $idades = [25, 30, 35, 40];<br>
 
-    // Definindo um vetor de strings
-    $nomes = ["João", "Maria", "Pedro"];
+    // Definindo um vetor de strings <br>
+    $nomes = ["João", "Maria", "Pedro"]; <br>
 
-    // Definindo um vetor misto
-    $informacoes = ["João", 25, true];
+    // Definindo um vetor misto<br>
+    $informacoes = ["João", 25, true];<br>
 
-    // Definindo um vetor associativo
-    $aluno = [
-        "nome" => "Maria",
-        "idade" => 30,
-        "cidade" => "São Paulo"
-    ];
+    // Definindo um vetor associativo<br>
+    $aluno = [<br>
+        "nome" => "Maria",<br>
+        "idade" => 30,<br>
+        "cidade" => "São Paulo" <br>
+    ];<br>
 
-    // Usando os vetores definidos
-    echo "Idades: " . implode(", ", $idades);
-    echo "Nomes: " . implode(", ", $nomes);
-    echo "Informações: " . implode(", ", $informacoes);
+    // Usando os vetores definidos<br>
+    echo "Idades: " . implode(", ", $idades);<br>
+    echo "Nomes: " . implode(", ", $nomes);<br>
+    echo "Informações: " . implode(", ", $informacoes);<br><br>
 
-    echo "Nome do aluno: " . $aluno["nome"];
-    echo "Idade do aluno: " . $aluno["idade"];
-    echo "Cidade do aluno: " . $aluno["cidade"];
+    echo "Nome do aluno: " . $aluno["nome"];<br>
+    echo "Idade do aluno: " . $aluno["idade"];<br>
+    echo "Cidade do aluno: " . $aluno["cidade"];<br>
 
 
-    </pre>
     </code>
 
     <p>
@@ -47,3 +51,8 @@
     Esses são apenas exemplos básicos de vetores em PHP. Existem muitas outras operações e funcionalidades que podem ser realizadas com vetores, como adicionar elementos, remover elementos, percorrer o vetor com loops, entre outros.
     </p>
 </div>
+    </div>
+</div>
+
+
+

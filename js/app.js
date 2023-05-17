@@ -1,10 +1,10 @@
-document.addEventListener('DOMContentLoaded', (evt) => {
+document.addEventListener('DOMContentLoaded', function(evt){
     setInterval(() => {
         document.getElementById('relogio').innerHTML = relogio();
     }, 1000);
 });
 
-const relogio = () => {
+function relogio(){
 
     const d = new Date();
 
@@ -30,9 +30,9 @@ const relogio = () => {
 
 };
 
-const playVideo = (title, v) => {
+function playVideo (title, v){
     const video = document.getElementById('video');
     video.setAttribute('src',v);
     video.setAttribute('title',title);
- 
-};
+    
+}
