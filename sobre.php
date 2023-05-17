@@ -34,5 +34,7 @@
     </div>
 </div>
 
+<a class="btn btn-secondary" href="./index.php"><i class="fa fa-arrow-left"></i> Voltar ao inicio</a>
+
 </div>
 <?php include __DIR__ . "/footer.php";?>
