@@ -9,8 +9,13 @@ document.addEventListener('DOMContentLoaded', function(evt){
 
         fetch(`./api.php/?pagina=${url}`)
         .then( resposta => resposta.text())
-        .then( resposta => document.getElementById('pagina').innerHTML = resposta);
- 
+        .then( resposta => { 
+            let cotacaoDolar = resposta;
+            document.getElementById('pagina').innerHTML = cotacaoDolar;
+            setTimeout( function(){
+                document.getElementById('pagina').innerHTML = `Cotação de dolar hoje: ${document.querySelector('#comercial').value}`;
+            }, 100);
+        })
     });
    
  
