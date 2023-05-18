@@ -7,5 +7,5 @@
  $conteudo = $_REQUEST['pagina'];
 
  $result = file_get_contents($conteudo);
- $url = "https://www.melhorcambio.com/dolar-hoje";
+ //$url = "https://www.melhorcambio.com/dolar-hoje";
  echo $result;

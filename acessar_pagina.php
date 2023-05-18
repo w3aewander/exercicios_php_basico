@@ -4,7 +4,9 @@
 
 <?php include __DIR__ . "/headerinfo.php"; ?>
 
-
+<div class="my-3 text-center">
+    <a class="btn btn-default"><i class="fa fa-home"></i> Inicio </a>
+</div>
 <div class="container" style="height: 100vh">
 
 <div class="card">
