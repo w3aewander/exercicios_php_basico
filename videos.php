@@ -24,6 +24,19 @@
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
+
+            
+            <!-- <video   controls  width="400" autoplay>
+                <source src="./videos/video1.mp4" type="video/mp4">
+                <source src="./videos/video1.avi" type="video/avi"> 
+               Seu browser não toca video
+            </video> -->
+            
+            <!-- <audio controls>
+                <source src="http://www.tuningmania.com.br/autosom/mp3/0-intro.MP3" type="audio/mpeg">
+                <source src="http://www.tuningmania.com.br/autosom/mp3/0-intro.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+            </audio> -->
             
         </div>
       

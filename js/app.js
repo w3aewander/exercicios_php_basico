@@ -1,7 +1,23 @@
 document.addEventListener('DOMContentLoaded', function(evt){
+ 
+    const btnNav = document.getElementById('btnNav');
+    btnNav.addEventListener('click', function(ev){
+
+        
+        let url = document.getElementById("txtUrl").value;
+
+
+        fetch(`./api.php/?pagina=${url}`)
+        .then( resposta => resposta.text())
+        .then( resposta => document.getElementById('pagina').innerHTML = resposta);
+ 
+    });
+   
+ 
     setInterval(() => {
         document.getElementById('relogio').innerHTML = relogio();
     }, 1000);
+
 });
 
 function relogio(){
@@ -35,4 +51,9 @@ function playVideo (title, v){
     video.setAttribute('src',v);
     video.setAttribute('title',title);
     
+}
+
+function carregarPagina(){
+   
+ 
 }

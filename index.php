@@ -38,6 +38,28 @@
 <a class="btn btn-secondary my-2" href="javascript:scrollTo(0,0);">Voltar ao topo</a>
 </div>
 
+<!-- laços de repetição FOR -->
+<div id="_for">
+    
+<?php require __DIR__ . "/_for.php" ; ?>
+<a class="btn btn-secondary my-2" href="javascript:scrollTo(0,0);">Voltar ao topo</a>
+</div>
+
+<!-- laços de repetição FOREACH -->
+<div id="_foreach">
+    
+<?php require __DIR__ . "/_foreach.php" ; ?>
+
+<a class="btn btn-secondary my-2" href="javascript:scrollTo(0,0);">Voltar ao topo</a>
+</div>
+
+<!-- laços de repetição WHILE -->
+<div id="_while">
+    
+<?php require __DIR__ . "/_while.php" ; ?>
+<a class="btn btn-secondary my-2" href="javascript:scrollTo(0,0);">Voltar ao topo</a>
+</div>
+
   <!-- manipulação de arquivos -->
   <div id="arquivos" >
     <?php require __DIR__ . "/arquivos.php" ; ?>
@@ -56,5 +78,7 @@
 </div>
   
 </div>
+
+
 
 <?php include __DIR__ . "/footer.php"; ?>

@@ -23,11 +23,18 @@
             <li><a class="dropdown-item" href="#constante"> Constantes </a></li>
             <li><a class="dropdown-item" href="#variaveis"> Variáveis</a></li>
             <li><a class="dropdown-item" href="#vetores"> Vetores</a></li>
+            <li><a class="dropdown-item" href="#_for"> Laço For</a></li>
+            <li><a class="dropdown-item" href="#_foreach"> Laço Foreach</a></li>
+            <li><a class="dropdown-item" href="#_while"> Laço While</a></li>
             <li><a class="dropdown-item" href="#funcs"> Funções</a></li>
             <li><a class="dropdown-item" href="#arquivos"> Arquivos</a></li>
             <li><a class="dropdown-item" href="./apostilas.php"> Apostilas</a></li>
             <li><a class="dropdown-item" href="#videos"> Vídeos</a></li>
             <li><a class="dropdown-item" href="exercicio.php"> Exercícios</a></li>
+            <li  class="divider"></li>
+            
+            <li><a class="dropdown-item" href="acessar_pagina.php"> Acessar página</a></li>
+
           </ul>
           <li class="nav-item"><a class="nav-link" href="sobre.php"> Sobre mim</a></li>
         </li>
